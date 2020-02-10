@@ -1,0 +1,28 @@
+
+gdp_cap versus life_exp plot, the GDP and life expectancy data for different countries in 2007. Maybe a scatter plot will be a better alternative?
+
+matplotlib.pyplot package is available as plt
+
+# Change the line plot below to a scatter plot
+plt.scatter(gdp_cap, life_exp)
+
+# Put the x-axis on a logarithmic scale
+plt.xscale('log')
+
+# Show plot
+plt.show()
+
+
+2. 
+Starting from scratch to  import matplotlib.pyplot as plt.
+Building a scatter plot, where pop is mapped on the horizontal axis, and life_exp is mapped on the vertical axis.
+Finished the script with plt.show() to actually display the plot. 
+the code:
+# Import package
+import matplotlib.pyplot as plt
+
+# Build Scatter plot
+plt.scatter(pop, life_exp)
+
+# Show plot
+plt.show()
